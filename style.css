@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #F1EFEF;
+}
+
+h1 {
+    margin: 10px;
+    background-color: #F875AA;
+    padding: 20px;
+    border-radius: 21px;
+    color: white;
+}
+
+.box{
+    background-color: white;
+    border: 2px solid #3b3b3b3b;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(99, 99, 100) 0px 60px 40px -7px;
+    transform: translatex(400%);
+    transition: transform 0.8s ease;
+    font-size: 30px;
+    
+}
+
+.box:nth-of-type(even) {
+    transform: translate(-400%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.ex1{
+    background-color: #2B3499;
+    color: white;
+    
+    
+}
+.ex2{
+    background-color: #FF6C22;
+    color: white;
+    
+    
+}
+.ex3{
+    background-color: #39A7FF;
+    color: white;
+    
+    
+}
+.ex4{
+    background-color: #FA7070;
+    color: white;
+    
+    
+}
+.ex5{
+    background-color: #D2DE32;
+    color: white;
+    
+    
+}
+.ex6{
+    background-color: #7743DB;
+    color: white;
+    
+    
+}
+.ex7{
+    background-color: #FFC436;
+    color: white;
+    
+    
+}
+.ex8{
+    background-color: #F875AA;
+    color: white;
+    
+    
+}
+.ex9{
+    background-color: #9A4444;
+    color: white;
+    
+    
+}
+.ex10{
+    background-color: #C70039;
+    color: white;
+    
+    
+}
+.ex11{
+    background-color: #40F8FF;
+    color: white;
+    
+    
+}
